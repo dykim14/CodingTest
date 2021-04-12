@@ -44,5 +44,4 @@ class Solution {
         answer += bridge_length;
         return answer;
     }
-
 }
