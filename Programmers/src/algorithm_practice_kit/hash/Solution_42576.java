@@ -1,6 +1,8 @@
+package algorithm_practice_kit.hash;
+
 import java.util.*;
 
-class Solution {
+public class Solution_42576 {
     private static final Integer ONE = Integer.valueOf(1);
 
     public String solution(String[] participant, String[] completion) {

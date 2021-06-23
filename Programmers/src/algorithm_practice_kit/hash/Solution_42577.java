@@ -1,6 +1,8 @@
+package algorithm_practice_kit.hash;
+
 import java.util.*;
 
-class Solution {
+public class Solution_42577 {
     public boolean solution(String[] phone_book) {
         Arrays.sort(phone_book);
 

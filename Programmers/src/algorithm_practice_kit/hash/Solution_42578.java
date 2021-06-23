@@ -1,6 +1,8 @@
+package algorithm_practice_kit.hash;
+
 import java.util.*;
 
-class Solution {
+class Solution_42578 {
     int answer;
     public int solution(String[][] clothes) {
         HashMap<String, Integer> clothesMap = new HashMap<>();

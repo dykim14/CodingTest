@@ -1,6 +1,8 @@
+package algorithm_practice_kit.hash;
+
 import java.util.*;
 
-class Solution {
+class Solution_42579 {
     public int[] solution(String[] genres, int[] plays) {
         int[] answer = {};
 

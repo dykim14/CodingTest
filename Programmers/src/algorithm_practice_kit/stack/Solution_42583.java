@@ -1,6 +1,8 @@
+package algorithm_practice_kit.stack;
+
 import java.util.*;
 
-class Solution {
+class Solution_42583 {
     public int solution(int bridge_length, int weight, int[] truck_weights) {
         // 1. 트럭 큐를 만들어 채워줌
         LinkedList<Integer> truckQueue = new LinkedList<>();
