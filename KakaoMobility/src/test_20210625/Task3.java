@@ -46,14 +46,14 @@ public class Task3 {
     }
 
     private boolean isAesthetic(List<Integer> list, int skipIndex) {
-        List<Integer> skipedList = new ArrayList<>(list);
+        List<Integer> skippedList = new ArrayList<>(list);
         if (skipIndex != -1) {
-            skipedList.remove(skipIndex);
+            skippedList.remove(skipIndex);
         }
-        int N = skipedList.size();
-        int prev = skipedList.get(1).compareTo(skipedList.get(0));
+        int N = skippedList.size();
+        int prev = skippedList.get(1).compareTo(skippedList.get(0));
         for (int i = 2; i < N; i++) {
-            int current = skipedList.get(i).compareTo(skipedList.get(i-1));
+            int current = skippedList.get(i).compareTo(skippedList.get(i-1));
             if (prev != current && prev != 0 && current != 0) {
                 prev = current;
             } else {

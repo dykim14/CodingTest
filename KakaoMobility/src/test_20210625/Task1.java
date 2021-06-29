@@ -10,7 +10,7 @@ public class Task1 {
             return NO_CONTACT;
         }
         int N = A.length;
-        TreeSet<String> match = new TreeSet<String>();
+        TreeSet<String> match = new TreeSet<>();
 
         for (int i = 0; i < N; i++) {
             if (B[i].contains(P)) {

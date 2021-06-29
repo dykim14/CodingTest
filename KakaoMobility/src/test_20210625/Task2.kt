@@ -20,8 +20,7 @@ interface Repository<T> {
 class University(private val repository: Repository<Student>) {
     fun getPaidCoursesWithTheNumbersOfSubscribedStudents(coursesCount: Int): Map<Course, Int> {
         val map = HashMap<Course, Int>();
-        repository.get().forEach {
-            it ->
+        repository.get().forEach { it ->
             val courses = it.subscribedCourses
             courses.forEach {
                 if (it.isPaid) {
